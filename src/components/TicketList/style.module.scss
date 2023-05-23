@@ -1,0 +1,54 @@
+.ticketList {
+  position: relative;
+  padding: 0 20px;
+  min-height: 300px;
+
+  &__button {
+    width: 100%;
+    background: #2196f3;
+    border-radius: 5px;
+    height: 50px;
+    margin-bottom: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: 0.25s ease-in-out;
+
+    &:hover {
+      background: #1b81d5;
+    }
+  }
+
+  &__loader {
+    min-height: 50px;
+    margin: 100px 150px;
+  }
+
+  &__loader-right {
+    width: 50px;
+    position: absolute;
+    left: -50px;
+    top: 270px;
+
+    @media (max-width: 540px) {
+      position: absolute;
+      width: 40px;
+      left: 0;
+      top: 430px;
+    }
+  }
+
+  &__alert {
+    display: flex;
+    margin: 50px auto;
+    max-width: 75%;
+  }
+
+  @media (max-width: 540px) {
+    position: static;
+  }
+}

@@ -1,0 +1,85 @@
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../../assets/fonts/OpenSans-Regular.eot);
+  src: local('Open Sans Light'), local('../../assets/fonts/OpenSans-Regular'),
+    url(../../assets/fonts/OpenSans-Regular.eot?#iefix) format('embedded-opentype'),
+    url(../../assets/fonts/OpenSans-Regular.woff) format('woff'),
+    url(../../assets/fonts/OpenSans-Regular.ttf) format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../../assets/fonts/OpenSans-Regular.eot);
+  src: local('Open Sans Regular'), local('../../assets/fonts/OpenSans-Regular'),
+    url(../../assets/fonts/OpenSans-Regular.eot?#iefix) format('embedded-opentype'),
+    url(../../assets/fonts/OpenSans-Regular.woff) format('woff'),
+    url(../../assets/fonts/OpenSans-Regular.ttf) format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../../assets/fonts/OpenSans-Medium.eot);
+  src: local('Open Sans Medium'), local('../../assets/fonts/OpenSans-Medium'),
+    url(../../assets/fonts/OpenSans-Medium.eot?#iefix) format('embedded-opentype'),
+    url(../../assets/fonts/OpenSans-Medium.woff) format('woff'),
+    url(../../assets/fonts/OpenSans-Medium.ttf) format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../../assets/fonts/OpenSans-SemiBold.eot);
+  src: local('Open Sans Bold'), local('../../assets/fonts/OpenSans-SemiBold'),
+    url(../../assets/fonts/OpenSans-SemiBold.eot?#iefix) format('embedded-opentype'),
+    url(../../assets/fonts/OpenSans-SemiBold.woff) format('woff'),
+    url(../../assets/fonts/OpenSans-SemiBold.ttf) format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Open Sans';
+  src: url(../../assets/fonts/OpenSans-Bold.eot);
+  src: local('Open Sans Bold'), local('../../assets/fonts/OpenSans-Bold'),
+    url(../../assets/fonts/OpenSans-Bold.eot?#iefix) format('embedded-opentype'),
+    url(../../assets/fonts/OpenSans-Bold.woff) format('woff'),
+    url(../../assets/fonts/OpenSans-Bold.ttf) format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+* {
+  list-style: none;
+  border: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background: #e5e5e5;
+}
+
+.header__logo {
+  display: flex;
+  margin: 50px auto;
+  width: fit-content;
+  max-width: 90px;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+
+  @media (max-width: 540px) {
+    flex-direction: column;
+  }
+}
